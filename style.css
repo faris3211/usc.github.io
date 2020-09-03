@@ -1,0 +1,389 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-style: italic;
+	font-family:sans-serif; ;
+}
+body{
+	background: url('iw-21.png'); 
+	margin: 0px 0px;
+
+}
+
+.menu-bar{
+
+	display: none;
+	background-color: grey;
+	border: 3px solid black;
+	border-radius: 30px;
+	margin: 30px 0px;
+	font-size: 27px; 
+
+}
+.m{
+	background-color: grey;
+	border: 3px solid black;
+	border-radius: 30px;
+	margin: 30px 0px;
+	font-size: 28px;
+	text-align: center;
+	font-weight: bolder;
+	padding: 15px; 
+	cursor: pointer;
+	color: black;
+
+}
+.m .fa{
+	margin-right: 18px;
+	color: white;
+	font-style: italic;
+	font-size: 28px;
+}
+.menu-bar ul{
+
+	width: 100%;
+	padding:10px;
+	list-style: none;
+	color: red;
+}
+
+
+.menu-bar ul li{
+	
+	width: 120px;
+	margin-right: 10px;
+	margin-left: 10px; 
+
+}
+
+.menu-bar .fa{
+	margin-right: 18px;
+	color: red;
+	font-style: italic;
+	font-size: 27px;
+}
+
+.menu-bar ul li a{
+	color: white;
+	text-decoration:none;
+	font-size: 20px;
+	font-weight: lighter;
+	
+}
+.menu-bar ul{
+		display: inline-block;
+		text-align: center;
+		
+}
+.menu-bar ul li{
+		
+		display: inline-block;
+		text-align: center;
+}
+.container-1{
+	background: white;
+	border: 3px solid black;
+	border-radius: 30px;
+	margin: 20px 0px;
+
+}
+.show{display: block;}
+
+.hide{display: none;}
+
+#logo-1{
+	margin: 5px;
+	border: 5px solid black;
+	height: 250px;
+	width: 260px;
+	position: relative;
+	animation-name: first;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+	
+}
+#logo-2{
+	margin:5px;
+	border: 5px solid black;
+	height: 250px;
+	width: 260px;
+	position: relative;
+	animation-name: second;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	
+	
+}
+#logo-3{
+	margin: 5px;
+	border: 5px solid black;
+	height: 250px;
+	width: 260px;
+	position: relative;
+	animation-name: third;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+	
+}
+
+ h1{
+	text-align: center;
+	background-color: darkblue;
+	color: yellow;
+	margin: 20px 0px;
+	border: 3px solid grey;
+	border-radius: 25px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bolder;
+	font-style: italic;
+	
+}
+
+.logo-back{
+
+	
+	margin: 20px 0px;
+	text-align: center;
+	border: 3px solid grey;
+	border-radius: 30px;
+	background-image: url('ib-1.png');
+	position: relative;
+	animation-delay: 3s;
+	animation-name: back;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+		
+}
+
+@keyframes first{
+
+	0% {left: -1000px;}
+	100% {left: 0px;}
+}
+
+@keyframes third{
+
+	0% {right: -1000px;}
+	100% {right: 0px;}
+}
+
+@keyframes second{
+
+	0% {opacity:  0;}
+	100% {opacity: 1;}
+}
+
+
+@keyframes back{
+
+	0% { background-image: url('ib-1.png');opacity: 0; }
+	100% {background-image: url('ib-2.png'); opacity: 1}
+}
+
+.work-dom{
+
+	text-align: center;
+	background:url('in-3.png');
+	margin:20px 0px;
+	border: 3px solid grey;
+	border-radius: 40px;
+	padding: 20px;
+	 
+}
+.work-dom a{
+	text-decoration: none;
+	color: yellow;
+	font-size:30px;
+	text-align: center;
+	padding: 15px;
+	border: 2px solid grey;
+	border-radius: 30px;
+	background: darkblue;
+	transition-property: all;
+	transition-duration: 2sec;
+
+}
+
+#dom-1{
+	box-shadow: 0px 8px 8px 0px grey  ;
+	
+	height: 250px;
+	width: 230px;
+	margin: 30px 0px;
+	margin-right: 10px;
+	transition-property: transform;
+	transform-origin: center;
+	transition-duration: 3s;
+
+}
+
+#dom-2{
+	box-shadow: 0px 8px 8px 0px grey ;
+	height: 250px;
+	width: 230px;
+	margin: 30px 0px;
+	margin-right: 10px;
+	transition-property: transform;
+	transform-origin: center;
+	transition-duration: 3s;
+
+}
+
+
+#dom-3{
+	box-shadow: 0px 8px 8px 0px grey ;
+	height: 250px;
+	width: 230px;
+	margin: 30px 0px;
+	margin-right: 10px;
+	transition-property: transform;
+	transform-origin: center;
+	transition-duration: 3s;
+
+}
+
+
+p{
+	
+	padding: 20px 0px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 30px;
+	color: black;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+.last{
+	background-image: url('iw-23.png');
+	border: 3px solid grey;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 40px;
+	text-align: center;
+}
+.last img{
+	height: 200px;
+	width: 200px;
+	margin:30px 10px;
+}
+h4{
+	padding-left: 8px;
+	text-align: left;
+	color: yellow;
+	line-height: 30px;
+	font-size:28px;
+	font-weight: bolder;
+	word-spacing: 2px;
+	letter-spacing: 1px
+}
+
+#last{
+	
+	opacity: 0.9;
+}
+.order{
+	
+	text-align: center;
+}
+
+.order img{
+
+	height: 160px;
+	width: 160px;
+	margin:20px 20px;
+	text-align: center;
+	transition-property: transform;
+	transition-duration: 1s;
+	
+}
+.order img:hover{
+	transform: rotateZ(360deg);
+
+
+}
+
+h3{
+	
+	color:black;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 10px;
+	
+}
+.payment{
+	text-align: center;
+}
+
+.payment img{
+	height: 160px;
+	width: 160px;
+	margin:20px 20px;
+	text-align: center;
+	transition-property: transform;
+	transition-duration: 1s;
+}
+.payment img:hover{
+	transform: rotateY(180deg);
+
+}
+
+h5{
+	text-align: center;
+	color:black;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 50px;
+	text-decoration: underline;
+	margin-left: 10px;
+	
+}
+
+.f-1{
+	background-color: rgba(0,0,0,0.8);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 20px 0px;
+	border: 4px solid grey;
+	border-radius: 30px;
+	
+}
+h6{
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	padding: 0px 10px;
+	margin: 30px 10px ;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+
+}
+.f-1 .fa{
+	margin: 0px 10px;
+	color: red;
+}
+
+.f-1 h2{
+	color:#25FB07 ;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 0px 10px;
+	font-size: 24px;
+	font-weight: bold;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	position: relative;
+	
+	
+}
+
+
+
+
